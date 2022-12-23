@@ -1,0 +1,6 @@
+__pycache__/
+/calendar_creds.json
+/google_oauth_credentials.json
+/google_service_account.json
+/api_keys.py
+/test.py
