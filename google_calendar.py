@@ -37,6 +37,8 @@ if not(credentials.valid):
         flow.run_local_server()
         credentials = flow.credentials
 
+        ## TODO: For when we automate this program, if we need to manually reauthenticate, have it also send an email reminder to alert us that we have to manually fix it
+
     # Save the credentials for the next run
     with open('calendar_creds.json','wt') as f:
         f.write(credentials.to_json())
